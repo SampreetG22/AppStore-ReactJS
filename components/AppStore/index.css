@@ -1,0 +1,63 @@
+.mainContainer {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainHead {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  text-align: center;
+}
+.TabsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+  width: 60%;
+}
+.inputSearchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 45%;
+  padding: 10px;
+}
+.inputBox {
+  width: 100%;
+  outline: none;
+  color: black;
+  font-size: 15px;
+
+  border: none;
+  background-color: transparent;
+}
+.imgAlter {
+  width: 15px;
+  height: 15px;
+}
+.AppsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  flex-direction: row;
+  justify-content: center;
+}
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+.apps-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
